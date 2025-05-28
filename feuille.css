@@ -1,0 +1,118 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color:lightpink;
+    color: #000080;
+}
+
+form {
+    margin-top: 30px;
+}
+
+table {
+    margin: auto;
+    border: 3px solid hotpink;
+    border-collapse: collapse;
+    width: 60%;
+    background-color: #ffffff;
+}
+
+th {
+    text-align: center;
+    font-size: 1.5em;
+    color: hotpink;
+    padding: 10px;
+}
+
+td {
+    padding: 10px;
+    height: 50px;
+}
+
+.label-cell {
+    width: 40%;
+    text-align: right;
+    color: #000080;
+}
+
+.symbol-cell {
+    width: 10%;
+    text-align: center;
+}
+
+.input-cell {
+    text-align: left;
+}
+
+.center-buttons {
+    text-align: center;
+}
+
+input[type="text"],
+input[type="date"],
+textarea,
+select {
+    width: 90%;
+    padding: 5px;
+    border: 1px solid #999;
+    border-radius: 5px;
+}
+
+input[type="submit"],
+input[type="reset"] {
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: deeppink;
+    color: white;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+    background-color: deeppink;
+}
+
+.fiche {
+    width: 60%;
+    margin: 30px auto;
+    border: 2px solid #000080;
+    padding: 20px;
+    background-color: #ffffff;
+}
+
+.fiche h2 {
+    text-align: center;
+    color: #000080;
+}
+
+.fiche p {
+    margin: 8px 0;
+}
+
+.erreurs {
+    width: 60%;
+    margin: 30px auto;
+    border: 2px solid red;
+    padding: 20px;
+    background-color: #fff0f0;
+    color: red;
+}
+
+.erreurs ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #000080;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+p {
+    font-weight: bold;
+}
